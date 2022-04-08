@@ -1,0 +1,70 @@
+.order-card {
+  margin: 1.5rem auto;
+  /* background-color: #8a2b06;
+  color: #fff; */
+  padding: 2.9rem 3.8rem 3.8rem 2.5rem;
+  letter-spacing: 1.5px;
+  border-radius: 0px;
+  box-shadow: 0px 1px 20px 0 #fff;
+}
+
+.order-form input {
+  width: 100%;
+  height: 2.7rem;
+  margin: 0.7rem 0;
+  transition: 1s;
+  border-radius: 0px;
+  color: #8a2b06;
+  border: auto;
+}
+
+.order-form .input {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.input label {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #8a2b06;
+}
+
+.orderBtn {
+  margin: 41px 0 0 0;
+  padding: 8px 3.7rem;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 25px;
+  background-color: #8a2b06;
+  transition: 0.8s;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px 5px #fff;
+  width: 50%;
+}
+
+.orderBtn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #8a2b06;
+  border-color: #8a2b06;
+  transition: 0.7s;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+.invalid-message {
+  color: #ca3e51;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}

@@ -1,0 +1,14 @@
+.done {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(6, 214, 6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.done h4 {
+  color: #fff;
+  font-size: 22px;
+}

@@ -1,0 +1,21 @@
+.meals {
+  width: 70%;
+  padding: 0;
+  margin: 3rem auto;
+}
+
+.meals ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.loading h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.error p {
+  color: red;
+  text-align: center;
+}
