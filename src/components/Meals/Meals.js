@@ -78,7 +78,7 @@ const Meals = (props) => {
   }
   const meals = (
     <ul>
-      {data.map((meal) => (
+      {DUMMY_MEALS.map((meal) => (
         <MealItem
           key={meal.id}
           meal={{
